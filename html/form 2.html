@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=_9A7pDqICRlw&format=png&color=000000">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body bgcolor="#DFF9F5">
+   <h1 style="color: #DFF9F5;background-color: #003f75; text-align: center; font-size: 40px;"> Faça sua reserva
+</h1>
+<form>
+    Nome: <input type="text" placeholder="Coloque aqui seu nome"> 
+    <br><br>
+    E-mail:<input type="email" placeholder="E-mail" required>
+    <br><br>
+    Telefone:<input type="tel">
+    <br><br>
+    Data de nascimento: <input type="date">
+    <br><br>
+    
+    Locais disponiveis para Reserva:<select name=""id="">
+    <option value="">-</option>
+    <option value="">Passeio</option>
+    <option value="">hotel</option>
+    <option value="">Restaurante</option>
+    <option value="">passagem de avião</option>
+    </option>
+</select><br><br>
+ Hora: <input type="time">
+<br><br>
+    Quantidade de Adultos:<input type="number" min="1" max="20"><br>
+    Quantidade de Crianças:<input type="number"min="1" max="20"><br><br>
+    Forma de pagamento:
+    <input type="radio"name="pagamento">Pix
+        <input type="radio" name="pagamento">Crédito
+        <input type="radio" name="pagamento">Débito<br><br>
+    Observação da Reserva<br>
+    <textarea name=" " id=" " rows="5" cols="20"></textarea><br>
+    <input type="checkbox"> Aceita os termos da reserva?<br>
+     <input type="submit" value="Reservar" onclick="alert(' Reserva enviado com sucesso')">
+<a href="Grecia.html"> <button> Voltar</button></a>
+   
+    
+    
+    
+    <br>
+</form>
