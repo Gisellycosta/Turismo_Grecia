@@ -32,11 +32,9 @@ table{
     margin: 20px auto;
 
 }
-<style>
-    
-    
+
 body{
-background: linear-gradient(135deg,#ff3131,#003768,#3b0505);
+background: linear-gradient(135deg,#002b50,#003768,#000c16;);
 color: aliceblue;
 font-family:Arial,sans-serif;
 line-height:1.8;
@@ -55,10 +53,7 @@ color: zzz#fff8f9;
 text-align: center;
 margin-bottom: 20px;
 }
-h2{
-color: #ffffff;
-margin: 25px 0 10px;
-}
+
 p{
 margin-bottom:20px;
 text-align: justify;
@@ -74,10 +69,10 @@ ol{
 padding-left: 30px;
 }
 li{
-margin-bottom: 12px;
+margin-bottom: 2px;
 }
 b{
-color:#ff0022;
+color:#003768;;
 }
 imagens{
 display: flex;
@@ -103,7 +98,7 @@ color:aliceblue;
 background-color: #003768;
 text-decoration: none;
 padding:12px 22px;
-margin: 8px;
+margin: 0;
 border-radius: 25px;
 transition: 0,3s;
 }
